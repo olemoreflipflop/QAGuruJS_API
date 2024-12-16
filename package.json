@@ -1,0 +1,34 @@
+{
+  "name": "qagurujs_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allureGenerate": "allure generate --clean",
+    "allureOpen": "allure open",
+    "uiMode": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "testApi": "npx playwright test --grep @API",
+    "debug": "npx playwright test --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olemoreflipflop/QAGuruJS_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olemoreflipflop/QAGuruJS_API/issues"
+  },
+  "homepage": "https://github.com/olemoreflipflop/QAGuruJS_API#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.1",
+    "allure-playwright": "^3.0.5",
+    "dotenv": "^16.4.5",
+    "prettier": "3.3.3",
+    "allure-commandline": "^2.31.0",
+    "@faker-js/faker": "^8.4.1"
+  }
+}
